@@ -2,7 +2,7 @@ class CashRegister
 
 @@all = []
 
-attr_accessor :total, :discount
+attr_accessor :total, :discount, :last_transaction
 
 # Hint Keep in mind that to call an instance method inside another instance method,
 # we use the self keyword to refer to the instance on which we are operating
@@ -36,7 +36,7 @@ attr_accessor :total, :discount
   end
 
   def void_last_transaction
-  
+
   end
 
 end
