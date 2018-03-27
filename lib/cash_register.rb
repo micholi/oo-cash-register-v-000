@@ -10,7 +10,7 @@ attr_accessor :total
     @total = 0
   end
 
-  def add_item(title, price)
+  def add_item(title, price, quantity = nil)
     
   end
 
