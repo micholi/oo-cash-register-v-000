@@ -6,7 +6,7 @@ attr_accessor :total
 # we use the self keyword to refer to the instance on which we are operating
 # For example: self.age += 1
 
-  def initialize
+  def initialize(total, discount = nil)
     @total = 0
   end
 
