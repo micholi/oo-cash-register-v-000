@@ -1,6 +1,6 @@
 class CashRegister
 
-cart = []
+@@all = []
 
 attr_accessor :total, :discount
 
@@ -14,7 +14,7 @@ attr_accessor :total, :discount
   end
 
   def add_item(title, price, quantity = nil)
-    cart << title
+    @all << title
     cost = price
   end
 
