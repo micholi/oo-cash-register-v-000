@@ -14,7 +14,7 @@ attr_accessor :total, :discount
   end
 
   def add_item(title, price, quantity = nil)
-    @all << title
+    @@all << title
     cost = price
   end
 
