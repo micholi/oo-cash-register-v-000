@@ -6,12 +6,12 @@ attr_accessor :total
 # we use the self keyword to refer to the instance on which we are operating
 # For example: self.age += 1
 
-  def initialize(total, discount = nil)
+  def initialize(discount = nil)
     @total = 0
   end
 
   def add_item(title, price, quantity = nil)
-    
+
   end
 
   def apply_discount
@@ -19,11 +19,11 @@ attr_accessor :total
   end
 
   def items
-    
+
   end
 
   def void_last_transaction
-    
+
   end
 
 end
