@@ -1,5 +1,7 @@
 class CashRegister
 
+cart = []
+
 attr_accessor :total, :discount
 
 # Hint Keep in mind that to call an instance method inside another instance method,
