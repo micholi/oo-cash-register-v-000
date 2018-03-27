@@ -32,7 +32,7 @@ attr_accessor :total, :discount
   end
 
   def void_last_transaction
-
+    @@all.pop
   end
 
 end
