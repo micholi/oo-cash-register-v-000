@@ -13,6 +13,10 @@ attr_accessor :total, :discount
     @discount = discount
   end
 
+  def self.all?
+    @@all
+  end
+
   def add_item(title, price, quantity = 1)
     @@all << title
     if quantity > 1
