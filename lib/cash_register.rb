@@ -17,7 +17,6 @@ attr_accessor :total, :discount, :last_transaction
       else
         @items << item
         self.total += price
-end
       end
     end
   end
