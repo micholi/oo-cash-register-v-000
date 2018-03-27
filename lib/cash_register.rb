@@ -15,7 +15,6 @@ attr_accessor :total, :discount, :last_transaction
 
   def add_item(item, price, quantity = 1)
     @@all << item
-    @last_transaction = @all[-1]
     if quantity > 1
       self.total += price * quantity
     else
