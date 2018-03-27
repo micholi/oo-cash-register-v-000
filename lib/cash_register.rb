@@ -19,7 +19,7 @@ attr_accessor :total, :discount
   end
 
   def apply_discount
-    total = total - self.discount
+    total -= self.discount
       "After the discount, the total comes to #{total}."
   end
 
